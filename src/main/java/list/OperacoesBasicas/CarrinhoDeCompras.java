@@ -48,8 +48,10 @@ public class CarrinhoDeCompras {
         carrinho.exibirItens();
         carrinho.adicionarItem("CD", 2.00, 20);
         carrinho.adicionarItem("CD", 2.00, 5);
+        System.out.println("Valor total carrinho: " + carrinho.calcularValorTotal());
         carrinho.exibirItens();
         carrinho.removerItem("CD");
+        System.out.println("Valor total carrinho: " + carrinho.calcularValorTotal());
         carrinho.exibirItens();
 
     }
